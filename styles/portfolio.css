@@ -211,25 +211,55 @@ footer {
 @media screen and (max-width: 576px) {
     .section-title {
         text-align: left;
+        padding-left: 20px;
         padding-right: 850px;
     }
     #what-i-do-description {
         text-align: left;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 20px 20px;
         padding-right: 850px;
     }
     .skills-container{
         display: flex;
         flex-direction: column;
         margin-right: 850px;
+        padding-left: 20px;
     }
     .resume-container {
         display: flex;
         flex-direction: column;
+        padding-left: 20px;
         padding-right: 850px;
     }
     .download-cv {
-        margin-right: 850px;
+        margin-right: 840px;
+    }
+    footer {
+        display: grid;
+        /* padding-right: 900px; */
+        padding: 10px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .footer-column p {
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 685px;
+    }
+    .social-links {
+        padding-left: 15px;
+    }
+    .footer-column .input {
+        margin-left: 10px;
+        width: 255px;
+    }
+    #textarea {
+        width: 280px;
+        margin-left: 10px;
+    }
+    #submit-btn {
+        margin: 10px;
     }
 } 
 
